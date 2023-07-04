@@ -6,8 +6,12 @@ module.exports = {
     './src/**/*.{js,jsx,ts,tsx,vue}',
   ],
   theme: {
-    extend: {},
-  },
+    extend: {
+        transitionProperty: {
+            'width': 'width'
+        },
+    },
+},
   plugins: [],
 }
 
