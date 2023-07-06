@@ -6,3 +6,6 @@ body {
 .router-link-active, .router-link-exact-active {
   @apply text-white before:w-full before:left-0 !important;
 }
+#app {
+  height: 100vh;
+}

@@ -5,11 +5,11 @@ import TheFooter from './components/TheFooter.vue';
 </script>
 
 <template>
-  <div class=" flex flex-col h-screen">
     <the-header />
-    <RouterView />
+    <main class="flex flex-col flex-grow container mx-auto">
+      <RouterView />
+    </main>
     <the-footer />
-  </div>
 </template>
 
 <style scoped>
