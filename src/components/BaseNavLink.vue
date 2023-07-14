@@ -5,11 +5,13 @@
 </template>
 
 <script setup>
+import { isNavLinkItemValid } from '../validators';
+
 const props = defineProps({
   link: {
     type: Object,
     required: true,
-    // validator:
+    validator: isNavLinkItemValid,
   }
 });
 

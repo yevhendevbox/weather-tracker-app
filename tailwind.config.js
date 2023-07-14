@@ -5,13 +5,13 @@ module.exports = {
     './public/**/*.html',
     './src/**/*.{js,jsx,ts,tsx,vue}',
   ],
-  theme: {
-    extend: {
-        transitionProperty: {
-            'width': 'width'
-        },
-    },
-},
+//   theme: {
+//     extend: {
+//         transitionProperty: {
+//             'width': 'width'
+//         },
+//     },
+// },
   plugins: [],
 }
 
