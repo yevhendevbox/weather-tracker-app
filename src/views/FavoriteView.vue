@@ -1,8 +1,8 @@
 <template>
   <div class="px-2 md:px-0">
-    I am here
+    <h1>This is an favorite page</h1>
   </div>
 </template>
 
-<script setup>
-</script>
+<style scoped>
+</style>
